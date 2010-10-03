@@ -11,6 +11,9 @@ GEM
   remote: http://rubygems.org/
   specs:
     RedCloth (4.2.3)
+    compass (0.10.5)
+      haml (>= 3.0.4)
+    haml (3.0.18)
     rack (1.1.0)
     rake (0.8.7)
     will_paginate (2.3.15)
@@ -20,6 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth (>= 4.0.0)
+  compass (~> 0.10.5)
   rack (~> 1.1.0)
   radiant!
   rake (>= 0.8.3)
